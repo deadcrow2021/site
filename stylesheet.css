@@ -23,21 +23,36 @@ body {
 
 }
 
-
 .mainpart {
 	padding-bottom: 20px;
-	width: 50%;
+	margin-right: 116px;
+	padding-left: 15px;
+	padding-right: 20px;
 	float: left;
+	background: url(wall.jpg) no-repeat;
+	background-size: cover;
+}
+
+.mainpart p {
+	padding: 10px 5px 10px 10px;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.mainpart h2 {
+	padding-left: 30px;
 }
 
 
 .right-panel {
+	padding-left: 30px;
+	padding-right: 30px;
 	position: fixed;
 	float: right;
 	right: 0px;
 	top: 0px;
 	height: 100vh;
-	background-color: rgba(4, 0, 255, 0.3);
+	background-color: rgba(127, 210, 2545, 0.6);
 }
 
 #first-item {
@@ -46,7 +61,7 @@ body {
 
 .right-panel li{
 	list-style: none;
-	padding-bottom: 5px;
+	padding-bottom: 8px;
 }
 
 .right-panel li:before {
@@ -54,7 +69,7 @@ body {
 }
 
 .right-panel li a{
-	color: black;
+	color: Black;
 	text-decoration: none;
 }
 
